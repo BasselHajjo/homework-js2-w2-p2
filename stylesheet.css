@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Supermercado One;
+}
+
+.logo{
+    width: 30%;
+    margin: 0 20px;
+}
+
+.heads{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.heads li{
+    font-size: 20px;
+}
+
+.img{
+    max-height: 70px;
+}
+
+#tableLeft{
+    flex: calc(50%-40px);
+    flex-direction: column;
+    margin: 20px;
+}
+
+#tableRight{
+    flex: calc(50%-40px);
+    flex-direction: column;
+    margin: 20px;
+}
+
+#table{
+    display: flex;
+    flex-direction: row;
+}
